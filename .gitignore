@@ -1,0 +1,6 @@
+.env
+factory_config.json
+artifacts/
+*.log
+__pycache__/
+.ipynb_checkpoints/

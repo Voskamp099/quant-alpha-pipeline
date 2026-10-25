@@ -1,0 +1,52 @@
+{
+  "api": {
+    "base_url": "https://api.worldquantbrain.com",
+    "min_interval_seconds": 2.0,
+    "lock_file": ".alpha_api.lock"
+  },
+  "universe": {
+    "region": "USA",
+    "name": "TOP3000",
+    "delay": 1
+  },
+  "paths": {
+    "artifacts": "artifacts",
+    "registry": "alpha_registry.csv",
+    "review": "field_review.csv",
+    "export": "alpha_export.csv",
+    "experiment_log": "experiment_log.jsonl"
+  },
+  "fields": {
+    "max_per_dataset": 60,
+    "dataset_limit": 12,
+    "min_coverage": 0.25,
+    "max_for_generation": 300
+  },
+  "review": {
+    "approved_fields_file": "field_review.csv",
+    "directions": {}
+  },
+  "generation": {
+    "unary_operators": [],
+    "time_operators": [],
+    "windows": [],
+    "interaction_pairs": []
+  },
+  "simulation": {
+    "max_candidates": 30,
+    "settings": {
+      "instrumentType": "EQUITY",
+      "region": "USA",
+      "universe": "TOP3000",
+      "delay": 1
+    }
+  },
+  "screen": {
+    "min_sharpe": 1.0,
+    "min_fitness": 1.0,
+    "max_turnover": 0.8
+  },
+  "dedup": {
+    "corr_threshold": 0.85
+  }
+}
