@@ -51,7 +51,7 @@ Two further pieces of the design came out of using it:
 - any per-candidate metric, alpha identifier, or submitted portfolio
 - the failure analysis and the classification of my results
 
-Those stay on my machine. If you want the same skeleton for your own research, the
+Those stay local. If you want the same skeleton for your own research, the
 configuration file is where your choices belong.
 
 ## Running it
